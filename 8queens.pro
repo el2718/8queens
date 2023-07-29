@@ -12,7 +12,7 @@ endif
 
 for j=0, Qnumber-1 do begin
 	breaked=0B
-	for i0=0, i-1 do begin		
+	for i0=0, i-1 do begin
 		if (j-queen[i0] eq 0) or (abs(j-queen[i0]) eq i-i0) then begin
 			breaked=1B
 			break
